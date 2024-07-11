@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="#">
-    <img alt="Food Explorer" src=".github/logo.svg" width="50%" />API
+    Food Explorer API
   </a>
 </h1>
 
@@ -41,7 +41,7 @@ Para gerar o token de autenticação utilize as credenciais abaixo na rota `/ses
   - login: `user@email.com`
   - senha: `123456`
 
-### 🏗️ Deploy local
+### Deploy local
 
 1. Faça o clone do projeto em uma pasta local através do prompt de terminal:
 ```bash
@@ -117,7 +117,7 @@ Esse projeto está sob a licença MIT.
 ## Autor  
 
 <a href="https://github.com/dsouloficial/">
-    <img alt="github dsouloficial" src="https://img.shields.io/static/v1?style=social&logo=github&label=github&message=dsouloficialcolor=4AF2C3">
+    <img alt="github dsouloficial" src="https://img.shields.io/static/v1?style=social&logo=github&label=github&message=dsouloficial">
 </a> 
 
 
