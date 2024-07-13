@@ -29,7 +29,7 @@ Backend do projeto Food Explorer</p>
 ## 🚀 Deploy
 
 O backend do projeto está hospedado na **Render.com** na url abaixo:
-- [https://foodexplorer-api-owmn.onrender.com](https://foodexplorer-api-owmn.onrender.com)
+- [https://explorerfood-backend.onrender.com](https://explorerfood-backend.onrender.com)
 
 Para gerar o token de autenticação utilize as credenciais abaixo na rota `/sessions`
 
@@ -45,7 +45,7 @@ Para gerar o token de autenticação utilize as credenciais abaixo na rota `/ses
 
 1. Faça o clone do projeto em uma pasta local através do prompt de terminal:
 ```bash
-git clone https://github.com/dsouloficial/foodexplorer-api.git
+git clone https://github.com/dsouloficial/ExplorerFood-Backend.git
 ```
 2. Acesse a pasta onde foi feito a cópia:
 ```bash
@@ -96,18 +96,42 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este é o backend do projeto **Food Explorer**, criado como parte do desafio final do treinamento fullstack **Explorer** da [@Rockeseat](https://www.rocketseat.com.br/) para avaliar os conhecimentos adquiridos.
 
-## 📑 Documentação da API
+## <h1 align="center">🔧 Recursos</h1>
 
-### Configuração Insomnia
+A aplicação possui duas personas:
 
-<p>
-Faça o download do arquivo de configuração do Insomnia com as requisições disponíveis na API ou importe no botão abaixo.
-</p>
-<p><a href="https://raw.githubusercontent.com/dsouloficial/foodexplorer-api/readme/docs/Insomnia_config.json" download >Download do Insomnia_config.json</a></p>
+- Cliente:
 
-<p align="left">
-<a href="https://insomnia.rest/run/?label=Foodexplorer%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdam450%2Ffoodexplorer-api%2Fmain%2Fdocs%2FInsomnia_config.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
+  - Mostrar todos os pratos
+  - Mostrar um prato especifico
+  - Pesquisar por um prato ou ingrediente
+  - Adicionar ao carrinho os pedidos
+  - Fazer um pedido
+  - Adicionar prato aos favoritos
+  - Acessar todos os favoritos
+  - Acessar histórico de pedidos
+  - Acessar status do pedido
+  - Atualizar informações da conta
+  - Acessar página com informações sobre o restaurante
+    <br/>
+    <br/>
+
+- Administrador:
+
+  - Mostrar todos os pratos
+  - Mostrar um prato especifico
+  - Pesquisar por um prato ou ingrediente
+  - Acessar todos os pedidos
+  - Acessar status do pedido
+  - Atualizar status de pedidos
+  - Atualizar informações da conta
+  - Acessar página com informações sobre o restaurante
+  - Cadastrar um novo prato
+  - Atualizar um prato
+  - Deletar um prato
+  - Atualizar um pedido
+    <br/>
+    <br/>
 
 ## :memo: Licença
 
