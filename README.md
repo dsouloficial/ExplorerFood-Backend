@@ -58,7 +58,7 @@ npm install
 4. Configure as variáveis de ambiente criando o arquivo `.env` (use o arquivo `.env.example` como modelo) incluindo as variáveis abaixo:
 ```js
 PORT=3000
-AUTH_SECRET=xxxxxxxxxxxxxxxx
+AUTH_SECRET=
 ```
 5. Execute as `migrations`
 ```bash
